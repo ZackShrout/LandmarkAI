@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel Margin="10">
+            <Button x:Name="selectButton"
+                    Content="Select Image"
+                    HorizontalAlignment="Center"
+                    Click="SelectButton_Click"/>
+            <Image x:Name="selectedImage"
+                   Margin="0,10,0,0"/>
+        </StackPanel>
     </Grid>
 </Window>
